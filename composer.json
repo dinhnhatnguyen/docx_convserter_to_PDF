@@ -1,0 +1,14 @@
+{
+  "name": "your-vendor/convert-docx-to-pdf",
+  "description": "A web application to convert DOCX files to PDF",
+  "type": "project",
+  "require": {
+    "php": ">=8.1",
+    "phpoffice/phpword": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
