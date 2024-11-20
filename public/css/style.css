@@ -29,3 +29,27 @@ button {
 button:hover {
   background-color: #45a049;
 }
+
+.download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.download-btn:hover {
+  background-color: #45a049;
+}
+
+.success {
+  color: #4caf50;
+  margin: 10px 0;
+}
+
+.error {
+  color: #f44336;
+  margin: 10px 0;
+}
